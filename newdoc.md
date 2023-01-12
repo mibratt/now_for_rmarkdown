@@ -11,3 +11,11 @@ print(x)
 ```
 
     ## [1] 1 2 3 4
+
+Another wonderful sentence
+
+``` r
+print(year(today()))
+```
+
+    ## [1] 2023

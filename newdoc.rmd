@@ -5,10 +5,23 @@ date: "2022-11-29"
 output: github_document
 ---
 
+```{r setup, include = FALSE}
+
+# Load library
+library(lubridate)
+```
 One nice sentence
 
 ```{r, eval = TRUE}
 x <- 1:4
 print(x)
+```
+
+Another wonderful sentence
+
+```{r, eval = TRUE}
+
+print(year(today()))
+
 ```
 
