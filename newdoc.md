@@ -15,7 +15,10 @@ print(x)
 Another wonderful sentence
 
 ``` r
-print(year(today()))
+print(year(
+  today()
+  )
+  )
 ```
 
     ## [1] 2023
